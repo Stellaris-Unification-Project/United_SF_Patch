@@ -1,0 +1,29 @@
+#... gfx/models/portraits/DoctorWho/ ...
+
+DoctorWho = {
+	archetype =  BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+	"DH01_doctorwho_team"
+	"DH02_cyberman"
+	"DH03_dalek"
+	"DH04_whispermen"
+	"DH05_silence"
+	"DH06_icewarrior"
+	"DH07_zygon"
+	"DH08_weeping_angel"
+	"DH09_sontaran"
+	"DH10_judoon"
+	"DH11_ood"
+	"DH12_slitheen"
+	"DH13_silurian"
+	}
+	
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+

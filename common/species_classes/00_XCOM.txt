@@ -1,0 +1,30 @@
+#... gfx/models/portraits/XCOM/ ...
+
+XCOM = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+	"XC11_sectoid"
+	"XC13_sectoid_agro"
+	"XC01_advent"
+	"XC02_andromedon"
+	"XC03_archon"
+	"XC04_avatar_xcom"
+	"XC05_berserker"
+	"XC06_chryssalid"
+	"XC07_ethereal"
+	"XC08_faceless"
+	"XC09_gatekeeper"
+	"XC10_muton"
+	"XC12_viper"
+	#next 14
+	}
+
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+
+

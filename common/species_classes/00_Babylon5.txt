@@ -1,0 +1,24 @@
+#... gfx/models/portraits/Babylon5/ ...
+
+Babylon5 = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+	"BA08_narn_anim"
+    "BA01_minbari"
+    "BA02_centauri"	
+	"BA03_earthalliance"
+	"BA05_shadow"
+	"BA06_vorlon"
+	"BA07_firstone"	
+    "BA04_narn"	
+	}
+	
+ 
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+

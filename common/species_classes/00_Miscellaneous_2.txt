@@ -1,0 +1,74 @@
+#... gfx/models/portraits/Miscellaneous/ ...
+
+Misc2 = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+	#Avatar
+#	"MI21_navi" 
+	
+	#Term
+#	"MI26_terminator"
+
+	#AvP
+#	"MI01_xenomorph"
+#	"MI02_predator"
+#	"MI06_engineer"
+	
+	#StarGate
+#	"MI04_jaffa"
+#	"MI05_goauld"
+#	"MI15_SGC"
+#	"MI32_asgard"
+#	"MI33_wraith"
+	
+	#PlanetSide
+#	"MI07_PlanetSide_TR" #Terran Republic 
+#	"MI08_PlanetSide_NC" #New Conglomerate
+#	"MI09_PlanetSide_VS" #Vanu Sovereignty
+	
+	#StarCraft
+#	"MI10_terran"
+#	"MI11_zerg"
+#	"MI12_protoss"
+	
+	#other
+#	"MI03_cylon" #from Battlestar Galactica 
+#	"MI20_bg_human" #from Battlestar Galactica 
+# 1-18 disabled	
+	"MI13_harvester" #aliens from indepn. day
+	"MI14_serenity" #serenity team
+	"MI18_combine"
+	
+
+	#StarShip Troopers
+	"MI19_arachnid"
+	
+	#Space rangers
+	"MI31_faeyan"
+	"MI27_gaalian"
+	"MI28_maloq"
+	"MI29_peleng"
+	"MI30_dominator"
+	
+	#Even Online
+	"MI22_amarr"
+	"MI23_minmatar"
+	"MI24_caldari"
+	"MI25_gallente"
+	
+	#Fantasy 
+#	"MI16_ork" - disable for all
+#	"MI17_ogre" - disable for all	
+	}
+	#sekantis 31
+
+	#new 33
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+}
+
+
+

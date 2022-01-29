@@ -1,0 +1,77 @@
+#... gfx/models/portraits/Star_Trek/ ...
+
+StarTrek = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+    "ST01_andorian" 
+	"ST13_aenar"
+	"ST02_bajoran" 
+	"ST03_cardassian" 
+	"ST04_klingon"
+	"ST05_starfleet"
+	"ST06_vulcan" 
+	"ST07_tellarite" 
+	"ST08_bolian"
+	"ST09_breen" 
+	"ST10_romulan"
+	"ST11_vorta"
+	"ST12_trill" 
+	"ST14_argrathian" #or Argrathi
+	"ST15_benzite"
+	"ST16_borg"
+	"ST17_brunali" 
+	"ST18_caitian"
+	"ST19_changeling"
+	"ST20_denobulan"
+	"ST21_devore"
+	"ST22_fen_domar"
+	"ST23_ferengi"
+	"ST24_flaxian"
+	"ST25_garidian"
+	"ST26_gorn"
+	"ST27_horta"
+	"ST28_jem_hadar"
+	"ST29_karemma"
+	"ST30_kazon"  #nuo cia nauji, planetu pav sukurti
+	"ST31_kraylor"
+	"ST32_krenim"
+	"ST33_lyridian"
+	"ST34_nausicaan"
+	"ST35_nyberrite"
+	"ST36_norcadian"
+	"ST37_orion"
+	"ST38_reman" 
+	"ST39_sheliak"
+	"ST40_skorr"
+	"ST41_humanoid_1"
+	"ST42_humanoid_2"
+	"ST43_humanoid_3"
+	"ST44_humanoid_4"
+	"ST45_humanoid_5"
+	"ST46_humanoid_6"
+	"ST47_humanoid_7"
+	"ST48_humanoid_8"
+	"ST49_humanoid_9"
+	"ST50_humanoid_10"
+	"ST51_talaxian"
+	"ST52_tamarian"
+	"ST53_tholian"
+	"ST54_undine"
+	"ST55_vaadwaur"
+	"ST56_voth"
+	"ST57_wadi"
+	"ST58_xindi_insectoid"
+	"ST59_xindi_mammalian"
+	"ST60_xindi_reptilian"
+	"ST61_zahl"
+	}
+
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+
+

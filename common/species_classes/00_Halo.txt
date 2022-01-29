@@ -1,0 +1,47 @@
+#... gfx/models/portraits/Halo/ ...
+
+Halo = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+	
+	"HA17_cortana"
+	
+	#Humans
+	"HA15_unschuman"
+	"HA16_prehumans"
+	#Covenant
+	"HA02_huragok"
+	"HA04_sangheili"
+	"HA05_unggoy" 
+	"HA06_jiralhanae"
+	"HA07_sanshyuum" #San'Shyuum
+
+	#Kig-Yar
+	"HA09_ruutian"	
+	"HA10_ibieshan" #Ibie'shan cia bus kigyar kataloge
+	"HA11_tvaoan" #T'vaoan	
+	
+	#Ecumene
+	"HA01_forerunner"
+	"HA14_promethean"
+
+	"HA08_yanmee" #Yanme'e
+	
+	#Others
+	"HA12_mgalekgolo" 
+	"HA13_sharquoi"
+	
+	#Precursors
+	"HA03_flood"
+	}
+  #sekantis turi buti 18-to
+	
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+}
+
+
+

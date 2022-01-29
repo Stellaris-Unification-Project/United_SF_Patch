@@ -1,0 +1,43 @@
+#... gfx/models/portraits/Mass_Effect/ ...
+
+MassEffect2 = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+#	"ME25_edi"
+#	"ME11_proth"
+#   "ME01_asari"
+#   "ME02_salarian"
+#	"ME18_alliance"
+#	"ME03_cerberus"
+#   "ME04_quarian"
+#   "ME05_turian"	
+#	"ME06_geth"
+#   "ME07_krogan"
+#   "ME17_collector"
+#	"ME09_reaper"
+#	"ME08_yahg"
+#	"ME10_drell"
+#	"ME12_batarian"
+#	"ME13_volus"
+#	"ME14_vorcha"
+#	"ME15_elcor"
+# 1-18, disabled
+	"ME16_hanar"
+	"ME19_rachni"
+	"ME20_keeper"
+	"ME21_leviathan"
+	"ME22_remnant"
+	"ME23_kett"
+	"ME24_angara"
+	}
+	
+
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+
+

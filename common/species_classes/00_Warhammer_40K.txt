@@ -1,0 +1,44 @@
+#... gfx/models/portraits/Warhammer_40k/ ...
+
+Warhammer = {
+	archetype = BIOLOGICAL
+	possible = { 	authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+	
+	#Major factions
+	"WH02_chaos"
+	"WH03_darkeldar"
+	"WH04_eldar"
+	"WH05_human"
+	"WH06_inquisition"
+	"WH22_sb"
+	"WH08_mechanicus"
+	"WH15_spacemarine"
+	"WH10_necron"
+	"WH12_ork"
+	"WH18_tau"
+	"WH19_tyranid"
+
+	
+	#Minor factions
+	"WH01_beast"
+	"WH07_kroot"
+	"WH09_jokaero"
+	"WH11_nicassar"
+	"WH13_rakgol"
+	"WH14_slaugh"
+	"WH16_sslyth"	
+	"WH17_tarellian"
+	"WH20_vespid"
+	"WH21_hhrud" 
+	}
+
+   
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+
+

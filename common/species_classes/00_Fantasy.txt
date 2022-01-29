@@ -1,0 +1,28 @@
+#... gfx/models/portraits/Fantasy/ ...
+
+FANTASY = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+		"FAN01_skeletor"
+		"FAN02_gdevil"
+		"FAN03_aquan"
+		"FAN04_cpoe"
+		"FAN05_cucd"
+		"FAN10_ilium"
+		"FAN06_hannah"
+		"FAN07_copon"
+		"FAN08_kioden"
+		"FAN09_iena"
+ 		"FAN11_uisok"
+		"FAN12_robot_SF"
+	}
+
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+
+

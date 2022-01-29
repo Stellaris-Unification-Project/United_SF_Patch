@@ -1,0 +1,52 @@
+#... gfx/models/portraits/Special/ ...
+
+SpecialRaces2 = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+#	"SP13_ai_1"
+#	"SP13_ai_2"
+	
+#	"SP01_robot" #blue eye
+#	"SP04_robot" #red eye
+#	"SP10_robot" #orange eye
+#	"SP02_robot" #purple eye
+#	"SP03_robot" #yellow eye
+#	"SP05_robot" #green eye
+#	"SP06_robot" #dark blue eye
+#	"SP11_robot" #dark purple eye
+	#variuos robots
+#	"SP07_robot" #black various 
+#	"SP08_robot" #grey various
+#	"SP09_robot" #white various
+    
+	#SP12 defined
+#	"exd4"
+#	"exd5"
+#	"exd6"
+#	"exd7"
+#	"exd8"
+# 1-18, disabled
+	"exd9"
+	"exd10"
+	"exd11"
+	
+	"swarm2group"
+	"swarm3group"
+	"swarm5group"
+	"swarm6group"
+	"swarm4group"
+	"swarm7group"
+	"swarm8group"
+	"swarm9group"
+
+	}
+
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"	
+}
+
+
+
